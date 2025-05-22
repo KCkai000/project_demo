@@ -102,3 +102,13 @@ html, body {
     text-align:justify;
 }
 
+.lxgw-wenkai-tc-bold {
+  font-family: "LXGW WenKai TC", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+.sidebar {
+  width: 240px;
+  background-color: #f1f1f1;
+  height: 100vh;
+}
