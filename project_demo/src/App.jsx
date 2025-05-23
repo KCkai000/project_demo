@@ -56,20 +56,20 @@ function App() {
                         padding: "20px",
                     }}
                 >
-                    <ul style={{ listStyle: "none", padding: 0 }}>
-                        <li>
-                            <a href="#">首頁</a>
-                        </li>
-                        <li>
-                            <a href="#">打卡紀錄</a>
-                        </li>
-                        <li>
-                            <a href="#">請假申請</a>
-                        </li>
-                        <li>
-                            <a href="#">簽核清單</a>
-                        </li>
-                    </ul>
+                    {/* <div class="sidebar">
+                        <a href="#home">
+                            <i class="fa fa-fw fa-home"></i> Home
+                        </a>
+                        <a href="#services">
+                            <i class="fa fa-fw fa-wrench"></i> Services
+                        </a>
+                        <a href="#clients">
+                            <i class="fa fa-fw fa-user"></i> Clients
+                        </a>
+                        <a href="#contact">
+                            <i class="fa fa-fw fa-envelope"></i> Contact
+                        </a>
+                    </div> */}
                 </aside>
 
                 {/* Main Content */}
