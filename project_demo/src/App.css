@@ -1,3 +1,4 @@
+
 html, body {
   height: 100%;
   overflow: hidden; /* 禁止整頁捲動 */
@@ -109,12 +110,12 @@ html, body {
 }
 .sidebar {
   width: 240px;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   height: 100vh;
 }
 
 .sidebar {
- 
+  height: 100%;
   width: 160px;
   position: fixed;
   z-index: 1;
@@ -140,4 +141,13 @@ html, body {
 .main {
   margin-left: 160px; /* Same as the width of the sidenav */
   padding: 0px 10px;
+}
+
+.index_cards {
+  height: 160px;
+  color: #fff;
+  line-height: 160px;
+  text-align: center;
+  background: #364d79;
+  max-width: fit-content;
 }
